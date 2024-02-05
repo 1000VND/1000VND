@@ -13,6 +13,16 @@ function generateProgressBar() {
     return `{ ${progressBar} }`
 }
 
+const formattedUpdateDate = new Date().toLocaleString('en-US', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    timeZone: 'UTC',
+});
+
 const readme = `\
 <h2 align="left">Hi 👋! My name is Hung and I'm a Software Engineer, from Ha Noi</h2>
 
@@ -42,7 +52,7 @@ const readme = `\
 
 ⏳ Year progress ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
 
-⏰ Updated on ${new Date().toUTCString()}
+⏰ Updated on ${formattedUpdateDate}
 
 ![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)\
 `
