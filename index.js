@@ -13,14 +13,14 @@ function generateProgressBar() {
     return `{ ${progressBar} }`
 }
 
-const formattedUpdateDate = new Date().toLocaleString('en-US', {
+const formattedUpdateDate = new Date().toLocaleString('vi-VN', {
     day: '2-digit',
     month: '2-digit',
     year: 'numeric',
     hour: '2-digit',
     minute: '2-digit',
     second: '2-digit',
-    timeZone: 'UTC',
+    timeZone: 'Asia/Ho_Chi_Minh',
 });
 
 const readme = `\
