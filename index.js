@@ -40,12 +40,11 @@ const readme = `\
 
 ---
 
-⏳ Year progress { ██▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 9.43 %
+⏳ Year progress ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
 
-⏰ Updated on Sun, 04 Feb 2024 12:17:09 GMT
+⏰ Updated on ${new Date().toUTCString()}
 
-![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)
-\
+![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)\
 `
 
 console.log(readme)
