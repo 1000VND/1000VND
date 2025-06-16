@@ -24,8 +24,8 @@
 
 ---
 
-⏳ Year progress { █████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 43.59 %
+⏳ Year progress { █████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 45.50 %
 
-⏰ Updated on 09:08:27, 09/06/2025
+⏰ Updated on 09:07:07, 16/06/2025
 
 ![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)
